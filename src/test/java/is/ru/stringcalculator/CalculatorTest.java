@@ -29,4 +29,11 @@ public class CalculatorTest {
     	assertEquals(6, Calculator.add("1,2,3"));
     }
 
+    @Test
+    public void testNewL(){
+    	assertEquals(7, Calculator.add("2\n2,3"));
+
+    }
+   
+
 }
